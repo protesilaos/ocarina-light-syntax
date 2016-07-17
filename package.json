@@ -1,0 +1,18 @@
+{
+  "name": "ocarina-syntax",
+  "theme": "syntax",
+  "version": "0.0.0",
+  "description": "Medium contrast theme. Inspired by The Legend of Zelda.",
+  "keywords": [
+    "syntax",
+    "green",
+    "cyan",
+    "orange",
+    "light"
+  ],
+  "repository": "https://github.com/protesilaos/ocarina-light-syntax",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.0.0"
+  }
+}
