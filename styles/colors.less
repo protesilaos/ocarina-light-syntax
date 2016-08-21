@@ -1,5 +1,3 @@
-// Ocarina Syntax Theme
-
 // Color scheme -----------------------------------
 
 @dbg: #212C2D; // Dark background
@@ -22,28 +20,30 @@
 @vio: #7A99BA; // Violet
 @mag: #A77B9B; // Magenta
 
-// Variables -----------------------------------
+// Visual order -----------------------------------
 
-@text-1: @lt1; // text primary
-@text-2: @lt2; // text secondary
+@primary1: @gre;
+@primary2: @cya;
+@primary3: @ora;
 
-@color-1: @gre; // color primary
-@color-2: @cya; // color secondary
-@color-3: @ora; // color tertiary
+@secondary1: @yel;
+@secondary2: @vio;
 
-@support-1: @yel; // support primary
-@support-2: @vio; // support secondary
+@tertiary1: @blu;
+@tertiary2: @red;
+@tertiary3: @mag;
 
-@accent-1: @blu; // accent primary
-@accent-2: @red; // accent secondary
-@accent-3: @mag; // accent tertiary
+// Theme variant ----------------------------------
 
-// Base vars -----------------------------------
-
-@syntax-fg: @text-1; // text primary
-@syntax-accent: @accent-1; // accent primary
+@text1: @lt1; // text primary
+@text2: @lt2; // text secondary
 @syntax-bg: @lbg; // background
 @syntax-guide: @lhl; // background highlight
+
+// Atom Base vars ---------------------------------
+
+@syntax-fg: @text1; // text primary
+@syntax-accent: @tertiary1; // cursor, markdown preview links, etc.
 @syntax-selection: @syntax-guide;
 @syntax-selection-gutter: @syntax-guide;
 @syntax-cursor-line: fade(@syntax-selection, 26%); // needs to be semi-transparent to show serach results
