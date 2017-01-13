@@ -8,13 +8,18 @@ Its most prevalent colours are variations of green, cyan, orange, yellow, and vi
 
 *Ocarina* comes in standalone light and dark versions (see further info below).
 
-## Screenshot
+## Screenshots
 
-![ocarina light screenshot](https://raw.githubusercontent.com/protesilaos/prot16/master/ocarina/img/ocarina_light_sample.png)
+![ocarina light screenshot html](https://raw.githubusercontent.com/protesilaos/prot16/master/ocarina/img/ocarina_light_html.png)
 
-*The font is [Iosevka term slab](https://github.com/be5invis/Iosevka)*.  
-*JavaScript demo is source code of [prismjs](http://prismjs.com/)*  
-*The UI is my experimental fork of the default One Dark*.
+![ocarina light screenshot scss](https://raw.githubusercontent.com/protesilaos/prot16/master/ocarina/img/ocarina_light_scss.png)
+
+![ocarina light screenshot js](https://raw.githubusercontent.com/protesilaos/prot16/master/ocarina/img/ocarina_light_js.png)
+
+![ocarina light screenshot md](https://raw.githubusercontent.com/protesilaos/prot16/master/ocarina/img/ocarina_light_md.png)
+
+*The font is [Iosevka term](https://github.com/be5invis/Iosevka)*.  
+*The UI is [Atom Material](https://github.com/atom-material/atom-material-ui)*.
 
 ## Download
 
